@@ -1,0 +1,17 @@
+n=int(input())
+sq=n*n
+r=0
+rr=0
+while(n!=0):
+    t=n%10
+    r=r*10+t
+    n=n//10
+rsq=r*r
+while(rsq!=0):
+    nt=rsq%10
+    rr=rr*10+nt
+    rsq=rsq//10
+if(rr==sq):
+    print(True)
+else:
+    print(False)
