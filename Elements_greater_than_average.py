@@ -6,5 +6,5 @@ l=len(a)
 avg=s//l
 for i in a:
     if(i>=avg):
-        p.append(i)
+       p.append(i)
 print(len(p))
