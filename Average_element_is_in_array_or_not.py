@@ -1,8 +1,10 @@
 n=int(input())
-ls=list(map(int,input().split()))
-s=sum(ls)
-avg=s//len(ls)
-if(avg in ls):
-    print('True')
+a=list(map(int,input().split()))
+c=0
+s=sum(a)
+l=len(a)
+avg=s//l
+if(avg in a):
+    print(True)
 else:
-    print('False')
+    print(False)
