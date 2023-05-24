@@ -1,10 +1,10 @@
 n=int(input())
 a=list(map(int,input().split()))
-l=len(a)
+p=[]
 s=sum(a)
-ls=[]
+l=len(a)
 avg=s//l
 for i in a:
-    if(i<=avg):
-        ls.append(i)
-print(len(ls))
+    if(avg>=i):
+        p.append(i)
+print(len(p))
