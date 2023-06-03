@@ -1,10 +1,10 @@
 n=int(input())
 a=list(map(int,input().split()))
-oc=[]
-ec=[]
+o=[]
+e=[]
 for i in a:
     if(i%2!=0):
-        oc.append(i)
+        o.append(i)
     else:
-        ec.append(i)
-print(*oc,*ec)
+        e.append(i)
+print(*o,*e)
