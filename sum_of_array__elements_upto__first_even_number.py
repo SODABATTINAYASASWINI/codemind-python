@@ -1,9 +1,9 @@
 n=int(input())
-l=list(map(int,input().split()))
-s=0
-for i in l:
-    if(i%2==0):
-        a=i
+a=list(map(int,input().split()))
+l=[]
+for i in a:
+    if i%2==0:
+        k=i
         break
-    s=s+i
-print(s)
+    l.append(i)
+print(sum(l))
