@@ -6,3 +6,4 @@ for i in a:
     if(c==i and c not in v):
         v.append(c)
 print(len(v))
+
