@@ -1,3 +1,3 @@
 n=input()
-c=eval(n)
-print(c)
+s=eval(n)
+print(s)
