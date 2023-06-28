@@ -1,3 +1,4 @@
-n=str(input())
-a=n[::-1]
-print(a)
+n=input()
+w=n.split(' ')
+r=' '.join(reversed(w))
+print(r)
