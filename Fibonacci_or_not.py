@@ -11,4 +11,3 @@ if(n in l):
     print(True)
 else:
     print(False)
-    
