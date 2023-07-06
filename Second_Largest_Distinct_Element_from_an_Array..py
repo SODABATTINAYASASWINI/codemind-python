@@ -1,0 +1,6 @@
+n=int(input())
+l=list(map(int,input().split()))
+e=set(l)
+a=sorted(e)
+a.pop()
+print(a.pop())
