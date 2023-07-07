@@ -1,0 +1,8 @@
+n=int(input())
+l=list(str(n))
+last=l.pop()
+first=l.pop(0)
+l.append(first)
+l.insert(0,last)
+j="".join(l)
+print(j)
