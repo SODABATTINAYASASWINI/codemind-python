@@ -1,0 +1,11 @@
+n=input()
+l=list(n)
+r=l[::-1]
+if(r[-1]=='-'):
+    r.pop()
+    r.insert(0,'-')
+if(r[0]=='0'):
+    r.pop(0)
+r=''.join(r)
+r=int(r)
+print(r)
