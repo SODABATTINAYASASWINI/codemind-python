@@ -1,0 +1,9 @@
+n=int(input())
+l=list(map(int,input().split()))
+l1=list(map(int,input().split()))
+s1=sum(l)
+s2=sum(l1)
+if(s1>=s2):
+    print(0)
+else:
+    print(abs(s1-s2))
