@@ -1,7 +1,7 @@
 n=int(input())
 l=list(map(int,input().split()))
-ls=[]
+v=[]
 for i in l:
-   if i not in ls:
-       ls.append(i)
-print(*ls)
+    if i not in v:
+        v.append(i)
+print(*v)
