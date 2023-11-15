@@ -1,18 +1,14 @@
 def prime(n):
-    c=0
-    for i in range(1,n+1):
-        if n%i==0:
-            c+=1
-    if(c==2):
-        return -1
+    if(n<=1):
+        return False
     else:
-        return 1
-m=int(input())
+        for i in range(2,int(n**0.5)+1):
+            if(n%i == 0):
+                return False
+        return True
 n=int(input())
-v=[]
-for i in range(m,n+1):
-    res= prime(i)
-    if(res==-1):
-        v.append(i)
-print(*v,sep="
-")
+m=int(input())
+for i in range(n,m+1):
+    res = prime(i)
+    if(res == True):
+        print(i)
