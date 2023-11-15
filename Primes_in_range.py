@@ -8,9 +8,9 @@ def prime(n):
         return True
 n=int(input())
 m=int(input())
-v=[]
+c=0
 for i in range(n,m+1):
     res = prime(i)
     if(res == True):
-        v.append(i)
-print(len(v))
+       c+=1
+print(c)
